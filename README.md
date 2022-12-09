@@ -15,14 +15,11 @@
     
 ## Installation
     
-  The following dependencies must be installed to use this application: express and inquirer 
+  The following dependencies must be installed to use this application: inquirer, mysql2, console.table and dotenv.
     
 ## Usage
-  in order to use this app, run the program in node
-    
-## Credits
-    
-  myself
+  in order to use this app, source the program with db/schema.sql and db/seeds.sql, then run node server.
+
     
 ## License
     
@@ -30,13 +27,6 @@
 
   https://choosealicense.com/licenses/mit/ 
 
-## How to Contribute
-    
-  
-    
-## Tests
-
-  
 
 ## Questions
 
