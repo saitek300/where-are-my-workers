@@ -116,7 +116,7 @@ function whatDoing() {
 
                 },
                 {
-                    type: 'input',
+                    type: 'number',
                     name: "manager_id",
                     message: 'who is managing the employee?'
 
@@ -133,7 +133,7 @@ function whatDoing() {
                     } = answer
                     //console.log(role_id)
 
-                    db.query('INSERT INTO employee (first_name, last_name, role_id, manager_id) VALUES (?,?,?)', [first_name, last_name, id, manager_id], function (err, results) {
+                    db.query('INSERT INTO employee (first_name, last_name, role_id, manager_id) VALUES (?,?,?,?)', [first_name, last_name, id, manager_id], function (err, results) {
                         if (err) throw err
                         console.table(results); whatDoing()
                     })
