@@ -22,4 +22,4 @@ VALUES (1,'Jane', 'Doe',1, null),
        (5,'Kunal', 'Singh',5, null),
        (6,'Malia', 'Brown',6,5),
        (7,'Sarah', 'Lourd',7, null),
-       (8,'Tom', 'Allen',8,7),
+       (8,'Tom', 'Allen',8,7);
